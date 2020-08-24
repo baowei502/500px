@@ -1,0 +1,204 @@
+  #adv_d1 {
+  	position: absolute;
+  	z-index: 1;
+  	width: 100%;
+  }
+  .container>div:first-child {
+  	padding-top: 58px;
+  }
+
+  .icon_1 {
+  	margin-top: 15px;
+  	margin-bottom: 10px;
+  	font-size: 26px;
+  	font-weight: 500;
+  	color: #525558;
+  }
+
+  .icon_2 {
+  	margin-top: 14px;
+  	margin-bottom: 18px;
+  	font-size: 14px;
+  	color: #525558;
+  }
+
+
+  #photo {
+  	padding: 0 20px;
+  	padding-top: 60px;
+    margin: 0 auto;
+  }
+
+  #photo h2 {
+  	margin-top: 60px;
+  	margin-bottom: 65px;
+  	font-size: 30px;
+  	font-weight: 600;
+		color: #525558;
+  }
+	#photo>div:nth-child(2){
+		margin-bottom: 30px;
+	}
+  .pic_flex{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.pic_flex img{
+		transition-property: all;
+		transition-duration: 1s;
+	}
+	.pic_flex img:hover{
+		transform: scale(1.025);
+	}
+	#tribe>div{
+		/* height: 300px; */
+		position: relative;
+	}
+	.tribe_height{
+		height: 300px;
+		background-color: #fff;
+	}
+  .tribe_1{
+		width: 75px;
+		margin-top: 29px;
+		margin-left: 25px;	
+	}
+	.tribe_2{
+		width: 200px;
+		position: absolute;
+		top: 40px;left: 125px;
+		color: #525558;
+	}
+	.tribe_2 a{
+		text-decoration: none;
+		color: #525558;
+	}
+	.tribe_2>h3>a>span{
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 600;
+	}
+	.tribe_2 p{
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.tribe_2 ul{
+		display: flex;
+		list-style: none;
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+	.tribe_2>ul>li{
+		margin-right: 10px;
+		font-size: 12px;
+		color: #cbd0d4;
+	}
+	.tribe_3{
+		margin-top: 30px;
+		height: 150px;
+	}
+	.tribe_3>ul{
+		display: block;
+		list-style: none;
+	}
+	.tribe_3>ul>li{
+		float: left;
+		margin-right: 4px;
+		margin-bottom: 4px;
+	}
+	#photographer>div>div{
+		padding-bottom: 30px;
+	}
+	#photographer h3{
+		font-size: 24px;
+		font-weight: 600;
+		margin-bottom: 0;
+	}
+	#photographer p{
+		margin-top: 10px;
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	.foot{
+		padding-left: 50px;
+		padding-right: 50px;
+		background-color: #f7f8fa;
+		color: #525558;
+	}
+	.foot>div{
+		position: relative;
+		height: 550px;
+	}
+	.foot>div>div:first-child{
+		width: 230px;
+		position: absolute;
+		top: 30px;
+		left: 50px;
+	}
+	.foot>div>div:last-child{
+		width: 440px;height: 500px;
+		position: absolute;
+		top: 50px;
+		left: 500px;
+	}
+	.foot h2{
+		font-size: 32px;
+		margin-bottom: 23px;
+		line-height: 1.2em;
+	}
+	.foot h4{
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 1.4em;
+	}
+	.join{
+		margin: 50px auto;
+		width: 480px;
+	}
+	.join button{
+		display: block;
+		height: 50px;
+		font-size: 20px;
+		font-weight: 600;
+		color: #fff;
+		background-color: #0099e5;
+	}
+	.catenate{
+		padding: 40px 20px;
+	}
+	.footer{
+		height: 266px;
+		background-color: #f7f8fa;
+		color: #525558;
+	}
+	.footer>div{
+		width: 1180px;
+		height: 266px;
+		padding: 40px 20px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.footer a{
+		color: #71767a;
+		text-decoration: underline;
+	}
+	.footer>div>div:first-child{
+		width: 741px;
+	}
+	.footer>div>div:nth-child(2){
+		width: 399px;
+		height: 172px;
+		padding-left: 20px;
+		display: flex;
+		position: absolute;
+		left: 741px;
+		top: 50px;
+		text-align: center;
+		margin-left: 50px;
+	}
+	.footer strong{
+		font-size: 24px;
+		line-height: 1.4em;
+		margin: ;
+	}
