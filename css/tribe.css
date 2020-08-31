@@ -58,14 +58,15 @@
 }
 #news{
 	padding: 86px 32px;
-	height: 684px;
+	/* height: 684px; */
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
 #news1{
 	position: relative;
-	width: 610px;
+	width: 610px; 
+	height: 475px;
 }
 #news1>img:last-child{
 	position: absolute;
@@ -121,17 +122,17 @@
 }
 #tribe_msg>div>div{
 	/* width: 1240px; */
-	height: 130px;
+	/* height: 130px; */
 	margin-top: 70px;
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 .tribe_msg1{
 	display: flex;
 	width: 459px;
 }
 .tribe_msg2{
-	width: 331px;
+  width: 331px; 
 	height: 79px;
 	margin-top: 20px; 
 	margin-left: 5px;
@@ -176,7 +177,8 @@
 	line-height: 17px;
 }
 .tribe_img{
-	width: 765px;
+	/* width: 765px; */
+  height: 113.19px; 
 	overflow-x: scroll;
 	display: flex;
 	justify-content: flex-start;
@@ -191,17 +193,18 @@
 .btn_blue{
 	width: 155px;height: 48px;
 	line-height: 48px;
+	text-align: center;
 	color: #fff;
 	background-color: #0870d1;
 	border: 0;outline: 0;
 	border-radius: 20px;
+	margin: 0 auto;
 }
 .btn_blue:hover{
 	border: 0;outline: 0;
 	border: transparent;
 }
 .tribe_list{
-	height: 937px;
 	padding-bottom: 92px;
 	/* overflow: hidden; */
 }
@@ -231,7 +234,6 @@
 	color: #0870d1;
 }
 .tribe_contant{
-	height: 800px;
 	margin: 12px auto 0px;
 	width: 1240px;
 }
